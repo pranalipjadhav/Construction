@@ -1,0 +1,44 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+body{
+margin:0;
+padding:0;
+display:flex;
+align-items:center;
+justidy-content:center;
+}
+.box{
+width:250px;
+height:150px;
+background:yellowgreen;
+margin:80px auto;
+cursor:pointer;
+animation:bounce 1s infinite;
+}
+@keyframes bounce{
+20%,50%,80%,to{
+transform:translateY(0);
+}
+40%{
+transform:translateY(-30px);
+}
+70%{
+transform:translateY(-15px);
+}
+90%{
+transform:translateY(-40px);
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<h1 class="text">Bounce Animation</h1>
+	<div class="box"></div>
+</div>
+	</body>
+</html>
